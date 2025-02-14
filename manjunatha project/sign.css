@@ -1,0 +1,49 @@
+body {
+    background-image: url("dharmasthala-sri-manjunatha-swamy-temple.jpg");
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    background-size: repeat;
+}
+.signup {
+    background-color: rgb(125, 227, 218);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(33, 33, 33, 0.1);
+    width: 350px;
+    text-align: center;
+}
+h2 {
+    margin-bottom: 20px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"]
+ {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+input[type="submit"] 
+{
+    background-color: #f77104;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover 
+{
+    background-color: #ff7803;
+}
+.form-group
+ {
+    text-align: left;
+}
